@@ -1,0 +1,18 @@
+This program was a quick solution i put together after seeing the question Facebook used for its programming challenge.
+
+Question.
+
+Given a list of words, L, that are all the same length, and a string, S, find the starting position of the substring of s that is a concatenation of each word in L exactly once and without any intervening characters. This substring will occur exactly once in S. 
+
+Example:
+
+L: "fooo", "barr", "wing", "ding", "wing"
+S: "lingmindraboofooowingdingbarrwingmonkeypoundcake"
+<<<<<<< HEAD
+	foowingdingbarrwing
+Answer: 13
+
+=======
+  foowingdingbarrwing
+Answer: 13
+>>>>>>> b35d5cd4a8061c5ada887398fb3998de4c164a63
