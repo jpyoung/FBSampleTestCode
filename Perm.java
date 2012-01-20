@@ -1,3 +1,5 @@
+// Jack Young
+
 
 public class Perm {
 
@@ -77,33 +79,3 @@ public class Perm {
 }
 
 
-
-
-
-
-////This converts the single letter into the specified phrase  
-//public static void convertStrings(int N, PermutationStorage ps, String[] L, String elements){
-//    
-//    for(int k = 0; k < ps.getNumOfPermutations(); k++){
-//    	int i1 = ps.getPermutations()[k].indexOf("a");
-//    	int i2 = ps.getPermutations()[k].indexOf("b");
-//    	int i3 = ps.getPermutations()[k].indexOf("c");
-//    	int i4 = ps.getPermutations()[k].indexOf("d");
-//    	int i5 = ps.getPermutations()[k].indexOf("e");
-//    
-//    	String[] ab = new String[N];
-//    	ab[i1] = L[0];
-//    	ab[i2] = L[1];
-//    	ab[i3] = L[2];
-//    	ab[i4] = L[3];
-//    	ab[i5] = L[4];
-//    
-//    	String computedString = "";
-//    	for(int x = 0; x < ab.length; x++){
-//    		computedString += ab[x]; 
-//    	}
-//    	ps.setElement(k, computedString);
-//    
-//    }
-//
-//}
